@@ -32,11 +32,11 @@ namespace UdemyCarBook.Persistence.Repositories.CarRepository
             return values;
         }
 
-        //public int GetCarCount()
-        //{
-        //	var value = _context.Cars.Count();
-        //	return value;
-        //}
+        public int GetCarCount()
+        {
+            var value = _context.Cars.Count();
+            return value;
+        }
 
     }
 }

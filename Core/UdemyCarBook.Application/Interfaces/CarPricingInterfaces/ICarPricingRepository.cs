@@ -10,7 +10,7 @@ namespace UdemyCarBook.Application.Interfaces.CarPricingInterfaces
     public interface ICarPricingRepository
     {
         List<CarPricing> GetCarPricingWithCars();
-        //List<CarPricing> GetCarPricingWithTimePeriod();
+        List<CarPricing> GetCarPricingWithTimePeriod();
         //List<CarPricingViewModel> GetCarPricingWithTimePeriod1();
     }
 }

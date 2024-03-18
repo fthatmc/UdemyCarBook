@@ -18,7 +18,7 @@ namespace UdemyCarBook.Persistence.Repositories.StatisticsRepositories
         }
         public string GetBlogTitleByMaxBlogComment()
         {
-            //Select Top(1) BlogId,Count(*) as 'Sayi' From Comments Group By BlogID Order By Sayi Desc 
+            
             var values = _context.Comments.GroupBy(x => x.BlogID).
                               Select(y => new
                               {

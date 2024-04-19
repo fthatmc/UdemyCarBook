@@ -8,6 +8,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCarBook.Domain", "Core\UdemyCarBook.Domain\UdemyCarBook.Domain.csproj", "{005F6E9A-E108-40AF-B3CE-792219B3A6AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C65EC756-0C75-4F6E-879D-466051C2B2C8}"
+	ProjectSection(SolutionItems) = preProject
+		Frontends\UdemyCarBook.WebUI\Views\Shared\_Layout.cshtml = Frontends\UdemyCarBook.WebUI\Views\Shared\_Layout.cshtml
+		Frontends\UdemyCarBook.WebUI\Views\Shared\_Layout.cshtml.css = Frontends\UdemyCarBook.WebUI\Views\Shared\_Layout.cshtml.css
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCarBook.Persistence", "Infrastructure\UdemyCarBook.Persistence\UdemyCarBook.Persistence.csproj", "{081F30A0-5AD7-4E58-A844-1646E86110E6}"
 EndProject
@@ -21,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCarBook.WebUI", "Frontends\UdemyCarBook.WebUI\UdemyCarBook.WebUI.csproj", "{367962C8-00AE-407B-B22F-3E7E2F29F39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyCarBook.Dto", "Frontends\UdemyCarBook.Dto\UdemyCarBook.Dto.csproj", "{41BE2BF4-5A3F-40AC-8EA8-DDE46BB775B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCarBook.Dto", "Frontends\UdemyCarBook.Dto\UdemyCarBook.Dto.csproj", "{41BE2BF4-5A3F-40AC-8EA8-DDE46BB775B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

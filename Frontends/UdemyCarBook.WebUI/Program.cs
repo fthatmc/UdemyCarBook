@@ -1,8 +1,23 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
+
+//nuget den JwtBearer ý Web.Uý a kurduktan sonra
+//jwt Authentication için yazýlacak; 1. adým
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddCookie(JwtBearerDefaults.AuthenticationScheme, opt =>
+{
+    opt.LoginPath = "/Login/Index/";
+    opt.LogoutPath = "/Login/LogOut/";
+    opt.AccessDeniedPath = "/Pages/AccessDenied/";
+    opt.Cookie.SameSite = SameSiteMode.Strict;
+    opt.Cookie.HttpOnly = true;
+    opt.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
+    opt.Cookie.Name = "CarBookJwt";
+});
 
 var app = builder.Build();
 
@@ -18,7 +33,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication(); //2.adým
 app.UseAuthorization();
 
 app.MapControllerRoute(

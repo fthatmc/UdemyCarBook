@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UdemyCarBook.Application.Features.Mediator.Commands.LocationCommands;
@@ -6,7 +7,8 @@ using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
 
 namespace UdemyCarBook.WebApi.Controllers
 {
-	[Route("api/[controller]")]
+    [Authorize(Roles = "Admin")] //lokasyon ile ilgili işlemlere sadece admin ulaşacak
+    [Route("api/[controller]")]
 	[ApiController]
 	public class LocationsController : ControllerBase
 	{

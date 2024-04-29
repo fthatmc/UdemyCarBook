@@ -22,6 +22,29 @@ Projede tüm CRUD işlemler API üzerinden gerçekleştirilir ve bu işlemler MV
 -	Postman
 
 
+# Öne Çıkan Özellikler
+
+-	Uygun lokasyona göre müsait araçları listeleme ve kiralama
+-	Araçların detaylarını görüntüleme
+-	Araçlara özellik atama
+-	MSSQL ilişkili tablolar
+-	Admin Panel
+-	SignalR ile canlı veri takibi
+-	Json Web Token ile Identity güvenliği
+-	İstatistikler
+-	Mail Gönderme
+-	Validation Kontrolleri
+
+# Teknik Özellikler
+-	MSSQL Veritabanı
+-	Asp.Net Core 8.0
+-	Asp.Net Core Web API
+-	Onion Mimari
+-	CQRS, Mediator, Repository Dessign Pattern
+-	Entity Framework Code First LINQ
+-	SignalR
+
+
 ![18](https://github.com/fthatmc/UdemyCarBook/assets/136472585/d05c3f07-adba-4162-9927-ab35e61c8e87)
 ![1](https://github.com/fthatmc/UdemyCarBook/assets/136472585/688ec553-2913-410f-8401-be2d82950380)
 ![2](https://github.com/fthatmc/UdemyCarBook/assets/136472585/d4e6c0ef-453c-4729-bd65-c617071ced96)

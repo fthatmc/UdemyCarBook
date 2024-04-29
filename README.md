@@ -1,8 +1,8 @@
 # CarBook - Araç Kiralama Sitesi
 
 ## Projenin Amacı
-ASP.NET Core 8.0 Web API ve MVC ile geliştirilen bu proje kullanıcı tarafında lokasyona göre araç kiralanabileceği ve araç marka modellerine göre günlük, haftalık, aylık olarak araç fiyatlarının listelenebildiği, kullanıcıya özgü blog yorumlarının yapılabildiği ve yapılan yorumlara göz atılabildiği, admin tarafında ise çeşitli istatistik ve grafiklere sahip olan ve CRUD işlemlerin admin tarafından yapılabilmesine olanak sağlayan bir web projesidir
-Projede tüm CRUD işlemler API üzerinden gerçekleştirilir ve bu işlemler MVC tarafında consume edilir. Dinamik veritabanı yönetimi için Entity Framework Code First kullanılmıştır. Onion Architecture mimari yapısı ve CQRS, Mediator, Repository design patternler kullanılarak kodun daha modüler ve sürdürülebilir olması hedeflenmiştir. Ayrıca proje JWT, SignalR ve Fluent Validation gibi önemli konuları da kapsamaktadır.
+ASP.NET Core 8.0 Web API ve MVC ile geliştirilen bu proje kullanıcı tarafında lokasyona göre araç kiralanabileceği ve araç marka modellerine göre günlük, haftalık, aylık olarak araç fiyatlarının listelenebildiği, kullanıcıya özgü blog yorumlarının yapılabildiği ve yapılan yorumlara göz atılabildiği, admin tarafında ise çeşitli istatistik ve grafiklere sahip olan ve CRUD işlemlerin admin tarafından yapılabilmesine olanak sağlayan bir web projesidir.
+Projede tüm CRUD işlemler API üzerinden gerçekleştirilir ve bu işlemler MVC tarafında consume edilir. Onion Architecture mimari yapısı ve CQRS, Mediator, Repository design patternler kullanılarak kodun daha  sürdürülebilir olması hedeflenmiştir. Ayrıca proje JWT, SignalR ve Fluent Validation gibi önemli konuları da kapsamaktadır.
 
 # Kullanılan Teknolojiler
 

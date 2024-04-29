@@ -1,3 +1,27 @@
+# CarBook - Araç Kiralama Sitesi
+
+## Projenin Amacı
+ASP.NET Core 8.0 Web API ve MVC ile geliştirilen bu proje kullanıcı tarafında lokasyona göre araç kiralanabileceği ve araç marka modellerine göre günlük, haftalık, aylık olarak araç fiyatlarının listelenebildiği, kullanıcıya özgü blog yorumlarının yapılabildiği ve yapılan yorumlara göz atılabildiği, admin tarafında ise çeşitli istatistik ve grafiklere sahip olan ve CRUD işlemlerin admin tarafından yapılabilmesine olanak sağlayan bir web projesidir
+Projede tüm CRUD işlemler API üzerinden gerçekleştirilir ve bu işlemler MVC tarafında consume edilir. Dinamik veritabanı yönetimi için Entity Framework Code First kullanılmıştır. Onion Architecture mimari yapısı ve CQRS, Mediator, Repository design patternler kullanılarak kodun daha modüler ve sürdürülebilir olması hedeflenmiştir. Ayrıca proje JWT, SignalR ve Fluent Validation gibi önemli konuları da kapsamaktadır.
+
+# Kullanılan Teknolojiler
+
+-	Asp.Net Core 8.0
+-	Asp.Net Web API
+-	MSSQL
+-	Entity Framework Code First
+-	SignalR
+-	Json Web Token
+-	MailKit
+-	FluentValidation
+-	Html
+-	Css
+-	JavaScript
+-	Bootstrap
+-	Swagger
+-	Postman
+
+
 ![18](https://github.com/fthatmc/UdemyCarBook/assets/136472585/d05c3f07-adba-4162-9927-ab35e61c8e87)
 ![1](https://github.com/fthatmc/UdemyCarBook/assets/136472585/688ec553-2913-410f-8401-be2d82950380)
 ![2](https://github.com/fthatmc/UdemyCarBook/assets/136472585/d4e6c0ef-453c-4729-bd65-c617071ced96)
